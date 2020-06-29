@@ -69,7 +69,7 @@ class TicTacToe
     end
       index = -1
         until valid_move?(index)
-         puts "Please make a move"
+         puts "Please make a move by entering a number between 1-9"
          input = gets.strip
          index = input_to_index(input)
          if valid_move?(index)
