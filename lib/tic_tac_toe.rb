@@ -70,11 +70,11 @@ class TicTacToe
       index = -1
         until valid_move?(index)
          puts "Please make a move"
-          input = gets.strip
-          index = input_to_index(input)
-        if valid_move?(index)
-      move(index,current_player)
-        display_board
+         input = gets.strip
+         index = input_to_index(input)
+         if valid_move?(index)
+          move(index,current_player)
+           display_board
        end
     end
   end 
