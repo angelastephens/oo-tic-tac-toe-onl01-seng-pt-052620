@@ -80,7 +80,8 @@ class TicTacToe
   end 
   
   def won?
-    win_combinations.find do 
+    win_combinations.find do |win_combo|
+      positions
 end
 
 
