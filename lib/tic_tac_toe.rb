@@ -95,6 +95,7 @@ class TicTacToe
     board.all? do |token|
       token !=" "
     end
+  end
 end
 
 
