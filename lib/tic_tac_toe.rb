@@ -77,7 +77,7 @@ class TicTacToe
   end 
   
   def won?
-    win_combinations.find do |win_combo|
+    WIN_COMBINATIONS.find do |win_combo|
       position_1_index= win_combo[0]
       position_2_index= win_combo[1]
       position_3_index= win_combo[2]
