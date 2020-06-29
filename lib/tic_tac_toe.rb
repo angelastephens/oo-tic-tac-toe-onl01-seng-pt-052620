@@ -90,6 +90,11 @@ class TicTacToe
       # position_taken?(postion_1_index)
     end
   end
+  
+  def full?
+    board.all? do |token|
+      token !=" "
+    end
 end
 
 
