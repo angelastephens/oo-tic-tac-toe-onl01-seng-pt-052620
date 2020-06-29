@@ -96,6 +96,10 @@ class TicTacToe
       token !=" "
     end
   end
+  
+  def draw?
+    full? && not won?
+  end
 end
 
 
