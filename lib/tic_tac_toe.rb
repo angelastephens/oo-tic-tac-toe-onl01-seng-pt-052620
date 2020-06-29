@@ -67,7 +67,7 @@ class TicTacToe
     else
       turn
     end
-      @index = -1
+      index = -1
         until valid_move?(index)
          puts "Please make a move"
           input = gets.strip
