@@ -88,7 +88,6 @@ class TicTacToe
       position_1_token == position_2_token &&
       position_2_token == position_3_token 
       # position_taken?(postion_1_index)
-    end
   end
 end
 
